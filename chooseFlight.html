@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./chooseFlight.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>plane tickets</title>
+</head>
+
+<body>
+    <div class=" container">
+        <header>
+            <div class="userImg"></div>
+            <div class="bell"><i class="fas fa-bell"></i></div>
+        </header>
+        <section>
+            <div class="h2">
+                <h2>Where you want to go?</h2>
+            </div>
+            <div class="inp">
+                <label for="air-select">Choose Airlines:</label>
+                <select name="" id="air-select">
+                    <option value="Lot">Lot</option>
+                    <option value="Ryanair">Ryanair</option>
+                    <option value="Lufthansa">Lufthansa</option>
+                    <option value="Air-France">Air France</option>
+                    <option value="Aeroflot">Aeroflot</option>
+                </select>
+
+            </div>
+            <div class="h4">
+                <h4>Upcoming Trips</h4>
+            </div>
+            <div class="card">
+                <div class="time">
+                    <span id="date1"></span>
+                </div>
+                <div class="time">
+                    <input type="time" name="" id="startTime"><i class="fas fa-long-arrow-alt-right"></i>
+                    <input type="time" name="" id="endTime" value="00:00" readonly>
+                </div>
+                <div class="flay">
+                    <h3 id="kod1"></h3>
+                    <p>.....</p>
+                    <i class="fas fa-plane"></i>
+                    <p>.....</p>
+                    <h3 id="kod2"></h3>
+                </div>
+                <div class="cit"><span id="start"></span><i class="fas fa-long-arrow-alt-right"></i>
+                    <span id="end"></span></div>
+                <div class="distance">distance in km : <span id="km"></span></div>
+                <div class="price">price in <i class="fas fa-euro-sign"></i> <span>0</span></div>
+            </div>
+
+        </section>
+        <div class="popular">
+            <h4>Popular Destinations</h4>
+        </div>
+        <main>
+
+            <!-- Swiper -->
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!--      -->
+            
+        </main>
+        <footer>
+            <i class="fas fa-home"></i>
+            <i class="fas fa-phone-alt"></i>
+            <i class="far fa-heart"></i>
+        </footer>
+
+    </div>
+
+    <script type="module" src="./chooseFlight.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
