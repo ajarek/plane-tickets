@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./chooseFlight.css">
+    <link rel="stylesheet" href="./css/chooseFlight.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>plane tickets</title>
 </head>
@@ -29,7 +29,7 @@
                     <option value="Ryanair">Ryanair</option>
                     <option value="Lufthansa">Lufthansa</option>
                     <option value="Air-France">Air France</option>
-                    <option value="Aeroflot">Aeroflot</option>
+                    <option value="Areoflot">Aeroflot</option>
                 </select>
 
             </div>
@@ -51,8 +51,11 @@
                     <p>.....</p>
                     <h3 id="kod2"></h3>
                 </div>
-                <div class="cit"><span id="start"></span><i class="fas fa-long-arrow-alt-right"></i>
-                    <span id="end"></span></div>
+                <div class="cit">
+                    <span id="start"></span>
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                    <span id="end"></span>
+                </div>
                 <div class="distance">distance in km : <span id="km"></span></div>
                 <div class="price">price in <i class="fas fa-euro-sign"></i> <span>0</span></div>
             </div>
@@ -71,17 +74,17 @@
                 <div class="swiper-pagination"></div>
             </div>
             <!--      -->
-            
+
         </main>
         <footer>
-            <i class="fas fa-home"></i>
-            <i class="fas fa-phone-alt"></i>
+           <a href="index.html"><i class="fas fa-home"></i></a>
+           <a href="tel:573219230"><i class="fas fa-phone-alt"></i></a>
             <i class="far fa-heart"></i>
         </footer>
 
     </div>
 
-    <script type="module" src="./chooseFlight.js"></script>
+    <script type="module" src="./js/chooseFlight.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 

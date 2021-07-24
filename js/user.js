@@ -18,7 +18,7 @@ export function getRandom() {
             movieEl.classList.add('movie')
 
             movieEl.innerHTML = `
-             <img src=" ${image}"> Hi ${user}`
+             <img src=" ${image}"> Hii ${user}`
             main.appendChild(movieEl)
 
         })
