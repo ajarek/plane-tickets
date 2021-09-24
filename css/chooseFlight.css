@@ -32,6 +32,7 @@ body {
     background-color: #64B5F6;
     border-radius: 8px;
     padding: 1px;
+    overflow: hidden;
 }
 
 header {
